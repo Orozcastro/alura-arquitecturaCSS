@@ -1,0 +1,30 @@
+.banner__img{
+    background-image: url(../img/banner.jpg) no-repeat center / cover;
+    width: 100%;
+    /* height: calc(100vh / 72px); */
+    /* position: relative; */
+    margin: 0;
+    padding: 0;
+}
+.banner__titulo{
+    color: white;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.425);
+    width: 100%;
+    /* text-transform: uppercase; */
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width:768px) {
+    .banner__img{
+        /* width: auto; */
+        height: calc(100vh - 51px);
+    }
+    .banner__titulo{
+        font-size: 3rem;
+        top: 50%;  
+    }
+}

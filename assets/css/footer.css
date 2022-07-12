@@ -1,0 +1,16 @@
+.footer {
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: right;
+    padding: 1.2rem 4rem;
+}
+.footer__contacto{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width:768px) {
+    .footer__contacto{
+        text-align: center;
+    }
+}
